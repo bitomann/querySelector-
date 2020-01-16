@@ -1,3 +1,14 @@
+body {
+    background-color: black;
+    color: #A5ACAF;
+}
+
+ul  {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
 .article {
     padding: 10px;
     border: 1px solid blue;
@@ -7,8 +18,14 @@
     font-size: 1.5em;
 }
 
+.article__header.important {
+    font-size: xx-large;
+    font-family: cinzel, 'Times New Roman', Times, serif;
+}
+
 .article__footer {
     padding: 0 30px;
+    color: black;
 }
 
 .goldenrod {

@@ -27,3 +27,6 @@ const addGoldenRod = document.querySelector(".article__footer");
 addGoldenRod.classList.add("goldenrod");
 console.log("ADD!", addGoldenRod);
 // ^^^^^targets .article__footer and adds goldenrod to it in the DOM
+
+// const addNavBar = document.querySelector(addNavBar)
+// addNavBar.
